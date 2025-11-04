@@ -26,7 +26,8 @@ De speler moet dus zowel tactisch als muzikaal slim spelen.
 ## 🧱 Design en UI
 
 ### 🎨 Schets van de layout en interface
-*(Hier kun je later een afbeelding of schets toevoegen van je spelwereld en UI)*
+<img width="1001" height="577" alt="image" src="https://github.com/user-attachments/assets/2e7e6b26-74d4-4f8b-9f70-1741df78dc77" />
+
 
 ---
 
