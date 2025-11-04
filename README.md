@@ -95,3 +95,6 @@ De speler moet dus zowel tactisch als muzikaal slim spelen.
 ---
 
 https://trello.com/b/EunlwuR6/tower-defense
+
+
+![GifVanTowerDefense](https://github.com/user-attachments/assets/9f6be120-f1e7-4de6-bb16-c83adbd2c2e0)
