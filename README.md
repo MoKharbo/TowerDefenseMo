@@ -99,3 +99,38 @@ https://trello.com/b/EunlwuR6/tower-defense
 
 
 ![GifVanTowerDefense](https://github.com/user-attachments/assets/9f6be120-f1e7-4de6-bb16-c83adbd2c2e0)
+
+```mermaid
+
+classDiagram
+    class Tower {
+        +string type
+        +int range
+        +int fireRate
+        +int damage
+        +void shoot(Enemy enemy)
+        +int calculateHarmonizedDamage(Tower otherTower)
+    }
+
+    class Enemy {
+        +string type
+        +int speed
+        +int health
+        +void move()
+        +void takeDamage(int damage)
+    }
+
+    class Game {
+        +list&lt;Tower&gt; towers
+        +list&lt;Enemy&gt; enemies
+        +int gold
+        +int waveNumber
+        +void startWave()
+        +void placeTower(Tower tower, Position position)
+        +void update()
+    }
+
+    Tower "1" -- "many" Enemy : attacks
+    Game "1" -- "many" Tower : contains
+    Game "1" -- "many" Enemy : spawns
+```
